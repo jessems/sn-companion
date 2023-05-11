@@ -352,7 +352,7 @@ export const Chat = memo(({ stopConversationRef }: Props) => {
       {!(apiKey || serverSideApiKeyIsSet) ? (
         <div className="mx-auto flex h-full w-[300px] flex-col justify-center space-y-6 sm:w-[600px]">
           <div className="text-center text-4xl font-bold text-black dark:text-white">
-            Weclome to SN Companion
+            Welcome to SN Companion
           </div>
           <div className="text-center text-lg text-black dark:text-white">
             <div className="mb-8">{`SN Companion is an AI companion for ServiceNow developers.`}</div>
